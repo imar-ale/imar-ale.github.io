@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>CrunchTower Desserts & Drinks Room</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/7895106ad2.js" crossorigin="anonymous"></script>
+		<link rel='icon' href="images/favicon.ico">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+									<!--back to the top button-->
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+									<!--Navigation-->
+		<nav class="navbar navbar-expand-lg bg-transparent">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/crunchtower-logo.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item-active">
+						<a class="nav-link" href="about.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="menu.html">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact us</a>
+					</li>
+				</ul>
+
+				<div class="social-media">
+					<a href="https://www.facebook.com/Gelatoparnell/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/crunchtowerdesserts/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+				</div>
+			
+				<div class="button">
+					<a class="order-now" href="https://www.ubereats.com/nz/store/crunchtower-desserts-%26-drinks-room/w6gfvxFTSmGNK-qqHPak3w" target="_blank">
+				Order Now</a>
+				</div>	
+			</div>
+		</nav>
+									<!--Content-->
+		<div class="about-us-info">
+				<div class="about-us-content">
+						<h1> A little bit <br>about us</h1>
+						<p> Come and taste the fantastic flavours of authentic gelato in our charming courtyard! Our delicious gelato and sorbet is made fresh everyday for us. The shop is a cutesy little parlour, tucked away in a brick lane in Parnell. <br><br> You can enjoy the sunshine outside or enjoy the indoor seating area. <br><br> There are more than 20 flavours of gelato and sorbet to give you plenty of choice. There is also a range of hot and cold drinks available in the shop. <br><br> We open late for great coffee and delicious desserts such as; brownies and sundaes. Or indulge in our delicious and freshly made hot waffles with the gelato of your choice. </p>
+				</div>
+
+				<div class="about-us-img">
+					<img src="images/about-us-image.jpeg" alt="desserts">	
+					<a class="see-menu" href="menu.html">See menu</a>
+				</div>
+
+		</div>
+								<!--footer-->
+			<div class="newsletter">
+				<div class="friends"> Let's be friends </div>
+				<p>Sign up to be our friend and know all the updates</p>
+				<div class="sign-up">
+					<input class="sign-up-area" type="text" name="search" placeholder="Enter your email">
+					<div class="sign-up-btn"> Sign me up!</div>
+				</div>
+
+				<div class="flowers-illustration">
+					<img src="images/flowers.png" alt="flowers">
+				</div>
+
+			</div>
+
+			<div class="footer">Copyright@CrunchTower 2021</div>
+
+								<!--back to the top button functions-->
+		<script>
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    	mybutton.style.display = "block";
+  		} else {
+    		mybutton.style.display = "none";
+  			}			
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+  		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+</body>
+
+</html>
